@@ -1,0 +1,15 @@
+<!doctype html>
+<script src="jquery.js"></script>
+<script src="illustractions.js"></script>
+<script>
+
+  var actions = {
+    'click #row1':        'show #dialog',
+    'click #closebutton': 'hide #dialog',
+    'mouseenter #row1':   'show #tooltip',
+    'mouseleave #row1':   'hide #tooltip'
+  };
+
+  Illustractions.init('fruit.svg', actions);
+
+</script>
