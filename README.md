@@ -6,12 +6,14 @@ Tom Germeau [blogged][0] about an amazing way to build interactive prototypes wi
 
 After referencing jQuery and the Illustractions script, kick things off by providing the path to your SVG file and an object containing the interactions you'd like to define:
 
-    Illustractions.init('fruit.svg', {
-      'click #row1':        'show #dialog',
-      'click #closebutton': 'hide #dialog',
-      'mouseenter #row1':   'show #tooltip',
-      'mouseleave #row1':   'hide #tooltip'
-    });
+```js
+Illustractions.init('fruit.svg', {
+  'click #row1':        'show #dialog',
+  'click #closebutton': 'hide #dialog',
+  'mouseenter #row1':   'show #tooltip',
+  'mouseleave #row1':   'hide #tooltip'
+});
+```
 
 ## Specifying Interactions
 
